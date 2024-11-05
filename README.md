@@ -37,41 +37,22 @@ This project can help provide context for studies of solar behavior, potential i
 1. **Set the Desired Years**: In the scripts, you can modify the `list_of_years` to specify the years you want to retrieve data for.
 2. **Run the Scrapers**:
    - **Specola Database Scraper**:
-     ```bash
-     python Specola_Database_Scrapper.ipynb
-     ```
+     Simply run each cell in the Jupyter Notebook
    - **Fenyi Scraper**:
-     ```bash
-     python Fenyi_Scrapper.ipynb
-     ```
-3. **View Data**: The scripts will output data in the console and optionally save results to `.csv` files.
-4. **Generate Visualizations**: After running the scrapers, the `SunspotDataScraper` will generate plots to show sunspot lifespans and activity trends.
+     Automatically ran inside Specola Database Scraper
+3. **View Data**: All graphs will be outputted inside of Jupyter Notebook cells
+4. **Generate Visualizations**: After running the scrapers, the `SunspotDataScraper` will generate plots to show sunspot lifespans and activity trends and get saved as png using the plt.savefig().
 
-## Example
-
-Here’s an example of how to retrieve data for sunspot groups and calculate their average lifespans by year:
-
-```python
-# Import the scraper functions
-from Specola_Database_Scrapper import retrieve_and_process_data, calculate_group_durations
-
-# Retrieve and process data for a specific year
-data = retrieve_and_process_data('1974')
-
-# Calculate average group durations
-durations = calculate_group_durations(data)
-print(durations)
-```
 
 ## Files
 
 - **`Specola_Database_Scrapper.ipynb`**: Scrapes sunspot data from the Specola Observatory database.
-- **`Fenyi_Scrapper.ipynb`**: Scrapes data from the Fenyi Observatory database.
-- **`sunspot_data_excel.csv`**: Example output data file for sunspot group appearances and lifespans.
+- **`Fenyi_Scrapper.ipynb`**: Scrapes data from the Fenyi Observatory database(Already implemented inside of Specola Database Scraper).
+- **`sunspot_data_excel.csv`**: Example output data file for sunspot group appearances and lifespans downloaded from Specola Database Archive.
 
 ## Contributing
 
-Contributions are welcome! Please submit an issue or pull request if you have suggestions for improvements or bug fixes.
+Contributions are welcome! Please submit an issue or pull request if you have suggestions.
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature-branch`)
