@@ -1,7 +1,3 @@
-Here’s a README template for your repository, **SunspotDataScraper**. This template provides structure and key sections to make your project accessible and informative to users and contributors.
-
----
-
 # SunspotDataScraper
 
 SunspotDataScraper is a Python-based tool designed to scrape and analyze sunspot data from historical observatory sources. It retrieves, processes, and visualizes sunspot group data, allowing users to track average lifespans and explore solar cycle trends over time. This repository is ideal for researchers, students, and enthusiasts interested in solar phenomena and sunspot activity.
