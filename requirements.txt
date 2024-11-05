@@ -1,0 +1,5 @@
+requests==2.26.0      # For web scraping and data requests
+pandas==1.3.3         # For data manipulation and analysis
+matplotlib==3.4.3     # For data visualization
+nbformat==5.1.3       # For handling Jupyter Notebook files
+
