@@ -1,6 +1,15 @@
 # SunspotDataScraper
 
-SunspotDataScraper is a Python-based tool designed to scrape and analyze sunspot data from historical observatory sources. It retrieves, processes, and visualizes sunspot group data, allowing users to track average lifespans and explore solar cycle trends over time. This repository is ideal for researchers, students, and enthusiasts interested in solar phenomena and sunspot activity.
+SunspotDataScraper is a Python-based tool designed to scrape, analyze, and visualize historical sunspot group data from observatories. This project aims to provide insights into solar activity trends by collecting sunspot appearance data across specified years, calculating the average lifespans of sunspot groups, and generating visual representations of these patterns over time. It’s ideal for researchers, students, and anyone interested in exploring long-term solar cycle trends and the impact of sunspot activity on space weather.
+
+## Project Goals
+The primary objectives of SunspotDataScraper are:
+
+To retrieve historical sunspot data from multiple observatory databases.
+Analyzing and calculating sunspot groups' average lifespan shows how long groups remain visible.
+To generate time-series visualizations of sunspot data, allowing users to observe solar cycle patterns and trends.
+To enable customizable data collection ranges, users can specify particular years or periods of interest in the list_of_years data structure.
+This project can help provide context for studies of solar behavior, potential impacts on Earth's geomagnetic environment, and historical solar cycle analysis.
 
 ## Features
 
