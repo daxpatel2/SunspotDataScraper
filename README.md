@@ -72,4 +72,4 @@ Created by [daxpatel2](https://github.com/daxpatel2) – feel free to reach out 
 
 ## Thank You
 
-Big thank you to my research advisors Dr.Asif Ud-Doula and Dr. Gillian Pearce for their guidance in this research.
+Big thank you to my research advisors Dr.Asif Ud-Doula and Dr.Gillian Pearce for their guidance in this research.
