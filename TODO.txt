@@ -1,0 +1,2 @@
+Implement multithredding for the webscrapping to speed it up
+Implement the additional data cleaning that we need for the screenshot
